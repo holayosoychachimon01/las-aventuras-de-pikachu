@@ -51,8 +51,30 @@ gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects3= [];
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1= [];
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects2= [];
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects3= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects1= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects2= [];
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects3= [];
 
 
+gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite12Objects1Objects = Hashtable.newFrom({"NewSprite12": gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1});
 gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSpriteObjects1Objects = Hashtable.newFrom({"NewSprite": gdjs.Escena_32sin_32t_237tuloCode.GDNewSpriteObjects1});
 gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDplayer_959595951Objects1Objects = Hashtable.newFrom({"player_1": gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1});
 gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite7Objects1Objects = Hashtable.newFrom({"NewSprite7": gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite7Objects1});
@@ -78,8 +100,16 @@ for (var i = 0, k = 0, l = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite9Objects
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite9Objects2.length = k;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects2);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite11"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects2);
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects2);
 {for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects2.length ;i < len;++i) {
     gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects2.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects2[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects2.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects2[i].hide();
 }
 }}
 
@@ -136,7 +166,60 @@ if (isConditionTrue_0) {
 
 };gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite6Objects1Objects = Hashtable.newFrom({"NewSprite6": gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite6Objects1});
 gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDplayer_959595951Objects1Objects = Hashtable.newFrom({"player_1": gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1});
+gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite11Objects1Objects = Hashtable.newFrom({"NewSprite11": gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1});
+gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDboton_95959595derechaObjects1Objects = Hashtable.newFrom({"boton_derecha": gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects1});
+gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDboton_95959595izqueridaObjects1Objects = Hashtable.newFrom({"boton_izquerida": gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects1});
+gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite13Objects1Objects = Hashtable.newFrom({"NewSprite13": gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects1});
 gdjs.Escena_32sin_32t_237tuloCode.eventsList1 = function(runtimeScene) {
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite12"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+for (var i = 0, k = 0, l = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1.length;i<l;++i) {
+    if ( gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1[i].isVisible() ) {
+        isConditionTrue_0 = true;
+        gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1[k] = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1[i];
+        ++k;
+    }
+}
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1.length = k;
+if (isConditionTrue_0) {
+/* Reuse gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1 */
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
+{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1[i].hide(false);
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite12"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite12Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+/* Reuse gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1 */
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
+{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1[i].hide();
+}
+}}
+
+}
+
 
 {
 
@@ -262,13 +345,8 @@ gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite3Objects1.length = k;
 }
 if (isConditionTrue_0) {
 /* Reuse gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite3Objects1 */
-gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
-gdjs.copyArray(runtimeScene.getObjects("punto_inicial"), gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects1);
 {for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite3Objects1.length ;i < len;++i) {
     gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite3Objects1[i].getBehavior("Animation").setAnimationName("NewSprite3");
-}
-}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
-    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].putAroundObject((gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects1.length !== 0 ? gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects1[0] : null), 0, 0);
 }
 }
 { //Subevents
@@ -286,8 +364,12 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1);
+gdjs.copyArray(runtimeScene.getObjects("NewSprite11"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1);
 {for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1.length ;i < len;++i) {
     gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1[i].hide();
 }
 }}
 
@@ -303,7 +385,93 @@ let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite6Objects1Objects, gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDplayer_959595951Objects1Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "level 2 supongo??", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "nivel 2", false);
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite11"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite11Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite10"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1);
+/* Reuse gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1 */
+gdjs.copyArray(runtimeScene.getObjects("NewSprite9"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite9Objects1);
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
+gdjs.copyArray(runtimeScene.getObjects("punto_inicial"), gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects1);
+{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].putAroundObject((gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects1.length !== 0 ? gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects1[0] : null), 0, 0);
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1[i].hide();
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].hide(false);
+}
+}{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite9Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite9Objects1[i].getBehavior("Animation").setAnimationName("NewSprite9");
+}
+}{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Escena sin título", false);
+}{gdjs.evtTools.variable.variableRemoveAt(runtimeScene.getScene().getVariables().getFromIndex(0), runtimeScene.getScene().getVariables().getFromIndex(0).getAsNumber());
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("boton_derecha"), gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDboton_95959595derechaObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
+{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].getBehavior("PlatformerObject").simulateRightKey();
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("boton_izquerida"), gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDboton_95959595izqueridaObjects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
+{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].getBehavior("PlatformerObject").simulateRightKey();
+}
+}}
+
+}
+
+
+{
+
+gdjs.copyArray(runtimeScene.getObjects("NewSprite13"), gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects1);
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.input.cursorOnObject(gdjs.Escena_32sin_32t_237tuloCode.mapOfGDgdjs_9546Escena_959532sin_959532t_9595237tuloCode_9546GDNewSprite13Objects1Objects, runtimeScene, true, false);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("player_1"), gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1);
+{for(var i = 0, len = gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length ;i < len;++i) {
+    gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1[i].getBehavior("PlatformerObject").simulateJumpKey();
+}
 }}
 
 }
@@ -365,6 +533,27 @@ gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects3.length = 0;
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1.length = 0;
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects2.length = 0;
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects3.length = 0;
 
 gdjs.Escena_32sin_32t_237tuloCode.eventsList1(runtimeScene);
 gdjs.Escena_32sin_32t_237tuloCode.GDplayer_95951Objects1.length = 0;
@@ -418,6 +607,27 @@ gdjs.Escena_32sin_32t_237tuloCode.GDpunto_9595inicialObjects3.length = 0;
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects1.length = 0;
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects2.length = 0;
 gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite10Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite11Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite12Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595derechaObjects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDboton_9595izqueridaObjects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite13Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite14Objects3.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects1.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects2.length = 0;
+gdjs.Escena_32sin_32t_237tuloCode.GDNewSprite15Objects3.length = 0;
 
 
 return;
