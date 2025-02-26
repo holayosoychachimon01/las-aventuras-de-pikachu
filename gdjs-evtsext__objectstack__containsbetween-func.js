@@ -10,7 +10,7 @@ gdjs.evtsExt__ObjectStack__ContainsBetween.GDObjectObjects1= [];
 gdjs.evtsExt__ObjectStack__ContainsBetween.GDElementObjects1= [];
 
 
-gdjs.evtsExt__ObjectStack__ContainsBetween.userFunc0x9b0e20 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
+gdjs.evtsExt__ObjectStack__ContainsBetween.userFunc0xdd2d58 = function GDJSInlineCode(runtimeScene, objects, eventsFunctionContext) {
 "use strict";
 const stackBehaviorName = eventsFunctionContext.getBehaviorName("Behavior");
 /** @type {Hashtable<gdjs.RuntimeObject[]>} */
@@ -38,7 +38,7 @@ gdjs.copyArray(eventsFunctionContext.getObjects("Object"), gdjs.evtsExt__ObjectS
 
 var objects = [];
 objects.push.apply(objects,gdjs.evtsExt__ObjectStack__ContainsBetween.GDObjectObjects1);
-gdjs.evtsExt__ObjectStack__ContainsBetween.userFunc0x9b0e20(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
+gdjs.evtsExt__ObjectStack__ContainsBetween.userFunc0xdd2d58(runtimeScene, objects, typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined);
 
 }
 
